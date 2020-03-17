@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link rel="icon" href="img/bar-icon.png">
+        <link rel="icon" href="http://example.com/favicon.png">
+        <meta charset="UTF-8">
+        <title>Методы поиска подстроки в строке</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <link href="fontawesome-free-5.12.0-web/css/all.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    </head>
+
+<body>
+    <h1 id = "first-h1">Методы поиска подстроки в строке</h1>
+    <div class = "option-menu">
+        <label for="algoritm-select">Выберете метод поиска:</label>
+<select id="algoritm-select">
+  <option value="Hash-option">Рехеширование</option>
+  <option value="Standart-option">Стандарный</option>
+</select>
+
+    </div>
+    <div class=  "search-block">
+    <i class="fas fa-search"></i>
+    <input type="text" id="string-input" name="input"><br><br>
+
+</div>
+<div class = "registr-option">
+<label for="cars">Чуствительность к регистру:</label>
+<select id="register-select">
+  <option value="Yes-option">Да</option>
+  <option value="No-option">Нет</option>
+</select>
+</div>
+<h1 id = "second-h1">Текст (ручной ввод)</h1>
+<div class = "main-text">
+    <textarea name="text" id="text-input" cols="40" rows="5"></textarea>
+</div>
+ </body>
+ <script type="text/javascript" src="script.js"></script>
+ 
+</html>

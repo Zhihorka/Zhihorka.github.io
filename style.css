@@ -1,0 +1,53 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+h1{
+    font-size:20px;
+}
+.search-block{
+    display: flex;
+    flex-direction: row;
+    padding-bottom:15px;
+}
+
+.fa-search{
+    font-size: 30px;
+    position: relative;
+    top: 5px;
+    left:15px;
+
+}
+
+#string-input{
+    font-size: 20px;
+    position: relative;
+    left: 25px;
+    border: 2px solid rgb(1, 0, 2);
+    border-radius: 7px;
+}
+#text-input{
+    font-size: 20px;
+    height: 200px;
+    position: relative;
+    left: 20px;
+    width: 315px;
+    border: 2px solid rgb(1, 0, 2);
+    border-radius: 7px;
+}
+
+.option-menu{
+    padding-bottom:15px;
+    padding-left:15px;
+}
+
+.registr-option{
+    padding-left:30px;
+}
+
+#first-h1{
+margin-left:10px;
+}
+
+#second-h1{
+    margin-left:70px;
+}
